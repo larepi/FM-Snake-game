@@ -1,0 +1,8 @@
+# This file was edited by Cloudbees Feature Management
+type: experiment
+enabled: false
+flag: snakeGame.background
+availableValues:
+  - green
+  - red
+value: red
