@@ -1,8 +1,4 @@
 # This file was edited by Cloudbees Feature Management
 type: experiment
 flag: snakeGame.release
-conditions:
-  - group:
-      name: audience 02
-    value: false
-value: false
+value: true
