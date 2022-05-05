@@ -2,5 +2,5 @@
 type: experiment
 flag: snakeGame.background
 availableValues:
-  - white
+  - green
 value: red
