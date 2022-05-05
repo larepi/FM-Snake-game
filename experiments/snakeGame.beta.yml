@@ -1,5 +1,6 @@
 # This file was edited by Cloudbees Feature Management
 type: experiment
+enabled: false
 flag: snakeGame.beta
 availableValues:
   - 100
@@ -9,4 +10,4 @@ conditions:
       semver: '1'
     group:
       name: audience 02
-    value:  90
+    value: 100
