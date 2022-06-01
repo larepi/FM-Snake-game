@@ -1,4 +1,6 @@
 # This file was edited by Cloudbees Feature Management
 type: experiment
-flag: update button
-value: false
+enabled: false
+flag: snakeGame.beta
+availableValues:
+  - 22
