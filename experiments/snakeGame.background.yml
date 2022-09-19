@@ -1,0 +1,15 @@
+# This file was edited by CloudBees Feature Management
+type: experiment
+labels:
+  - Subscriptions
+  - Registered
+flag: snakeGame.background
+availableValues:
+  - red
+  - green
+  - yellow
+conditions:
+  - group:
+      name: IsPremiumBetaUser
+    value: yellow
+value: green

@@ -1,0 +1,12 @@
+# This file was edited by CloudBees Feature Management
+type: experiment
+labels:
+  - archived
+enabled: false
+stickinessProperty: rox.language
+flag: recent users
+availableValues:
+  - Tomorrow
+  - Next week
+  - ''
+  - Today
