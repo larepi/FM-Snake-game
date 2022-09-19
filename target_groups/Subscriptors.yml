@@ -1,9 +1,0 @@
-type: target-group
-name: Subscriptors
-description: Subscribed payment users
-conditions:
-  - operator: in-array
-    property: rox.platform
-    operand:
-      - experienced
-      - old
