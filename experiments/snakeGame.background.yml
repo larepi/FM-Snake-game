@@ -1,8 +1,18 @@
-# This file was edited by Cloudbees Feature Management
+# This file was edited by CloudBees Feature Management
 type: experiment
-enabled: false
 flag: snakeGame.background
 availableValues:
   - green
   - red
+conditions:
+  - property:
+      name: rox.language
+      operator: in-array
+      operand:
+        - '20'
+    value:
+      - percentage: 50
+        option: green
+      - percentage: 50
+        option: red
 value: red

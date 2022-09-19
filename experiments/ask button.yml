@@ -1,10 +1,7 @@
 # This file was edited by CloudBees Feature Management
 type: experiment
 enabled: false
-flag: snakeGame.speed
+flag: ask button
 availableValues:
-  - slow
-  - insane
-  - fast
-  - normal
-value: fast
+  - Tomorrow
+  - Next week
