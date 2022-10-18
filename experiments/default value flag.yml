@@ -2,4 +2,4 @@
 type: experiment
 stickinessProperty: rox.language
 flag: default value flag
-value: false
+value: true
