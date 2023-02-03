@@ -2,4 +2,17 @@
 type: experiment
 stickinessProperty: rox.language
 flag: default value flag
+conditions:
+  - dependency:
+      flag: ask button
+      value: Tomorrow
+    group:
+      name: IsPremiumBetaUser
+    property:
+      name: rox.language
+      operator: in-array
+      operand:
+        - '22'
+    acrossTypesLogicGate: or
+    value: false
 value: true
