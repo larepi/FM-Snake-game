@@ -1,4 +1,4 @@
-# This file was edited by Cloudbees Feature Management
+# This file was edited by CloudBees Feature Management
 type: experiment
 enabled: false
 flag: recent users
@@ -6,18 +6,4 @@ availableValues:
   - Today
   - Tomorrow
   - Next week
-conditions:
-  - version:
-      operator: semver-gte
-      semver: 2.01.03
-    dependency:
-      flag: update button
-      value: 'false'
-    value:
-      - percentage: 33
-        option: Today
-      - percentage: 33
-        option: Tomorrow
-      - percentage: 34
-        option: Next week
 value: Tomorrow
