@@ -2,7 +2,6 @@
 type: experiment
 labels:
   - archived
-enabled: false
 stickinessProperty: rox.language
 flag: recent users
 availableValues:
