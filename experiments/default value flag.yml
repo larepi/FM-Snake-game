@@ -6,8 +6,6 @@ conditions:
   - dependency:
       flag: ask button
       value: Tomorrow
-    group:
-      name: IsPremiumBetaUser
     property:
       name: rox.language
       operator: in-array
