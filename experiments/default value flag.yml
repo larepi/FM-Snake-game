@@ -1,6 +1,8 @@
 # This file was edited by CloudBees Feature Management
 type: experiment
 description: New description
+labels:
+  - First time
 stickinessProperty: rox.language
 flag: default value flag
 conditions:
