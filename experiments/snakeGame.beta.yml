@@ -4,6 +4,7 @@ enabled: false
 flag: snakeGame.beta
 availableValues:
   - 100
+  - 22
 conditions:
   - version:
       operator: semver-gte
