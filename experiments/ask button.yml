@@ -5,3 +5,4 @@ flag: ask button
 availableValues:
   - Tomorrow
   - Next week
+  - Today
